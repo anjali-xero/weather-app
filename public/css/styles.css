@@ -1,0 +1,129 @@
+body {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    background-image: url("../img/background.png");
+    /* background-color: #cccccc; */
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-content {
+    flex-grow: 1;
+    
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+    text-align: center;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+header a {
+    color: #888888;
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.portrait {
+    width: 100px !important;
+    align-self: center;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    width: 87%;
+}
+
+button {
+    float: right;
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+    
+}
+
+.intro {
+    margin-top: 25px;
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
+    color: #888888;
+
+}
+
+#message-1 {
+    margin-top: 50px;
+    margin: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#message-2 {
+    margin-top: 50px;
+    margin: 25px;
+    text-align: center;
+}
+
+.help-intro {
+    margin-top: 225px !important;
+    margin: 25px;
+    text-align: center;
+}
+
+.about-intro {
+    margin-top: 25px;
+    margin: 25px;
+    text-align: center;
+}
+
+.sources-title {
+    margin-top: 60px !important;
+    margin: 25px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 200px;
+}
+
+
+li {
+    margin: 15px;
+}
